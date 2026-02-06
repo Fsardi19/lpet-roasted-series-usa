@@ -1,3 +1,4 @@
+import AnnouncementBar from './components/AnnouncementBar';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Products from './components/Products';
@@ -12,6 +13,9 @@ import StickyCart from './components/StickyCart';
 function App() {
   return (
     <div className="min-h-screen">
+      {/* Announcement Bar - FIRST ELEMENT */}
+      <AnnouncementBar />
+
       <Header />
       <main>
         <Hero />

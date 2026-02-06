@@ -30,23 +30,34 @@ export default function Products() {
           </div>
         </div>
 
-        {/* Trust Badges */}
-        <div className="flex flex-wrap justify-center gap-8 mb-12 py-6 border-y border-brand-beige/30">
+        {/* Trust Badges - Enhanced for USA */}
+        <div className="flex flex-wrap justify-center gap-6 md:gap-8 mb-12 py-6 border-y border-brand-beige/30">
           <div className="flex items-center gap-2 text-sm text-brand-dark">
             <Truck size={20} className="text-brand-green" />
-            <span>Free Shipping $50+</span>
+            <span><strong>Free Shipping</strong> $50+</span>
           </div>
           <div className="flex items-center gap-2 text-sm text-brand-dark">
             <Clock size={20} className="text-brand-green" />
-            <span>Roasted Fresh to Order</span>
+            <span>Roasted <strong>Fresh to Order</strong></span>
           </div>
           <div className="flex items-center gap-2 text-sm text-brand-dark">
             <Shield size={20} className="text-brand-green" />
-            <span>30-Day Guarantee</span>
+            <span><strong>30-Day</strong> Guarantee</span>
           </div>
           <div className="flex items-center gap-2 text-sm text-brand-dark">
             <Award size={20} className="text-brand-green" />
-            <span>SCA Score 85-90+</span>
+            <span>SCA Score <strong>85-90+</strong></span>
+          </div>
+        </div>
+
+        {/* Payment Methods - NEW */}
+        <div className="flex justify-center gap-4 mb-8 text-gray-400">
+          <span className="text-xs uppercase tracking-wider">Secure Checkout:</span>
+          <div className="flex gap-3 items-center">
+            <span className="font-semibold text-gray-600">Visa</span>
+            <span className="font-semibold text-gray-600">Mastercard</span>
+            <span className="font-semibold text-gray-600">Amex</span>
+            <span className="font-semibold text-gray-600">PayPal</span>
           </div>
         </div>
 
