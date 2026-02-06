@@ -1,6 +1,6 @@
 // Asset URLs - Replace with Cloudinary URLs when ready
-// Base path for local development
-const BASE_PATH = '/images';
+// Use Vite's base URL for GitHub Pages compatibility
+const BASE_PATH = `${import.meta.env.BASE_URL}images`;
 
 export const ASSETS = {
   // Hero images
